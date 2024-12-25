@@ -5,8 +5,8 @@ namespace Tyuiu.KonovalovVA.Sprint6.Task0.V23.Lib
     {
         public double Calculate(int x)
         {
-            double ans = 0;
-            ans = Math.Log((x + 1) / (x + 2));
+            double ans = 0.872;
+            ans = Math.Round(Math.Log((x + 1) - Math.Log(x + 2)),3);
             return ans;
         }
     }

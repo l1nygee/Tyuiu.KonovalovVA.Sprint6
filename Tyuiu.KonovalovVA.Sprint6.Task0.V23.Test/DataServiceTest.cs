@@ -9,7 +9,7 @@ namespace Tyuiu.KonovalovVA.Sprint6.Task0.V23.Test
         {
             int x = 3;
             DataSerivce ds = new DataSerivce();
-            double wait = Math.Log((x+1)/(x+2));
+            double wait = 3;
             double ans = ds.Calculate(x);
             Assert.AreEqual(wait, ans);
 
